@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: nunito;
+    src: url(font/Nunito/static/Nunito-Regular.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    width: 90;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: nunito;
+    line-height: 1.7;
+    margin: auto;
+    padding: auto;
+}
+
+.nav-link{
+    font-weight: 700;
+    font-size: 20;
+}
+
+.home {
+    background-image: url(gambar/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.about{
+    margin-top: 100px;
+    font-weight: 700;
+}
+
+.container-text {
+           justify-content: center;
+}
+
+.about img{
+    width: 350px;
+}
+
+.skill {
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.project {
+    text-align: center;
+    margin-top: 80px;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: black;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+}
+
+
+.card {
+    background-image: url(gambar/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ .project-card {
+    background-color: white;
+ }
+
+.picture {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+ .picture img{
+    width: 150px;
+    align-items: center;
+ }
+ 
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #881288;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
