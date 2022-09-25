@@ -1,14 +1,8 @@
 
+
 @font-face {
     font-family: nunito;
     src: url(font/Nunito/static/Nunito-Regular.ttf);
-}
-
-*{
-    margin: 0%;
-    padding: 0%;
-    width: 90;
-    box-sizing: border-box;
 }
 
 body {
@@ -27,8 +21,8 @@ body {
     background-image: url(gambar/bg.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     color: white;
+    height: 100vh;
 }
 
 .about{
